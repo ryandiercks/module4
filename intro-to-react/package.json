@@ -1,0 +1,19 @@
+{
+  "name": "intro-to-react",
+  "version": "8.12.0",
+  "description": "npminstall",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryandiercks/intro-to-react.git"
+  },
+  "author": "Ryan Diercks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryandiercks/intro-to-react/issues"
+  },
+  "homepage": "https://github.com/ryandiercks/intro-to-react#readme"
+}
