@@ -1,32 +1,177 @@
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+body {
+  background-repeat: no-repeat;
+  background: radial-gradient(ellipse at center,rgba(0,191,255,.5) 0,
+                                                rgba(118,1,177,.5) 100%),
+              linear-gradient(45deg,rgba(0,191,255,.92),rgba(118,1,177,.92)) no-repeat fixed center;
+}
+
 .App {
   text-align: center;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+  height: 80px;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #222;
+  height: 40px;
+  padding: 35px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-header-nav {
+  text-align: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-header-nav a {
+  font-size: 20px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
+
+
+button {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  vertical-align: middle;
+}
+
+a {
+  color: pink;
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+.album-cover-art {
+  float: left;
+}
+
+.album-info {
+  float: right;
+}
+
+.Library-album-image {
+  width: 4%;
+  height: 10%;
+  padding-left: 20px;
+  padding-top: 20px;
+  float: left;
+  white-space: pre-wrap;
+
+}
+.Library-album-title {
+  font-size: 16px;
+  height: 16px;
+  white-space: pre-wrap;
+}
+
+.Library-album-artist {
+  font-size: 14px;
+  height: 14px;
+  white-space: pre-wrap;
+}
+
+.Library-album-songs {
+  font-size: 12px;
+  height: 12px;
+  padding-bottom: 10px;
+  white-space: pre-wrap;
+
+
+}
+
+#album-cover-art {
+  padding-top: 10px;
+  width: 15%;
+}
+
+
+#album-title {
+  height: 8px;
+  padding: 2px;
+}
+
+#album-artist {
+  height: 8px;
+  padding: 2px;
+}
+
+#release-info {
+  height: 8px;
+  padding: 2px;
+}
+
+#song-info {
+  width: 20%;
+  padding: 10px;
+}
+
+#song-list {
+  font-size: 14px;
+  width: 80%;
+  table-layout: auto;
+  padding: 5px;
+  background-color: rgba(255,255,255,0.15);
+}
+
+#song-number-action {
+  font-size: inherit;
+  width:  2px;
+  text-align: right;
+}
+
+#song-title {
+  text-align: left;
+  padding-right: 5px;
+}
+
+.song {
+  text-align: left;
+  font-size: 12px;
+}
+
+#song-duration {
+  text-align: right;
+}
+
+#currently-playing {
+  font-size: 18px;
+  color: black;
+}
+
+.player-bar{
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  padding: 10px;
+}
+
+.player-container{
+  width: 300px;
 }
