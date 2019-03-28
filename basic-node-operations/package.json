@@ -1,0 +1,15 @@
+{
+  "name": "basic-node-operations",
+  "version": "1.0.0",
+  "description": "basic nodes",
+  "main": "bash.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "module4"
+  },
+  "author": "Ryan Diercks",
+  "license": "ISC"
+}
